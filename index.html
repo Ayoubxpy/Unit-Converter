@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>  
+<meta lang="en" content="text/html;charset=UTF-8">
+<title>Unit Converter</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sigmar+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<body>
+    <div class="header-container">
+        <h1>Metric / Imperial Unit Conversion</h1>
+        <input id="input-btn" class="custom-input" type="text">
+        <button id="convert-btn">CONVERT!</button>
+    </div>
+    
+    <div class="Conversion">   
+        <div class="Meter-Feet">
+            <h4>Length (Meter/Feet)</h4>
+            <p id="length-el">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+        </div>
+        
+        <div class="Liter-Gallon">
+            <h4>Volume (Liter/Gallon)</h4>
+            <p id="volume-el">0 Liter = 0.000 Gallon | 0 Gallon = 0.000 Liter</p>
+        </div>
+
+        <div class="Kilogram-Pounds">
+            <h4>Mass (Kilogram/Pounds)</h4>
+            <p id="mass-el">0 Kilogram = 0.000 Pound | 0 Pound = 0.000 Kilogram</p>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
