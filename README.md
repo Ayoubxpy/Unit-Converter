@@ -1,7 +1,6 @@
 # Metric/Imperial Unit Converter
 
-![Unit Converter](![preview](<img width="944" height="869" alt="image" src="https://github.com/user-attachments/assets/7d6e2e56-7f0c-4912-95a6-1d4b1b7b949a" />
-)) 
+![Unit Converter](![alt text](image.png))
 
 ## 📌 Overview
 
